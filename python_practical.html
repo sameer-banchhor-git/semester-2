@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practical Record for HEMCHAND YADAV VISHWAVIDYALAYA">  <!-- Added description -->
+    <title>Practical Record</title>
+    <style>
+        /* Reset some default styles for consistency */
+        body, h1, h2, h3, p, table, pre {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* More modern, readable font */
+            line-height: 1.6;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #495057; /* Darker text color for better readability */
+            padding: 20px; /* Add some padding around the content */
+        }
+
+        h1, h2, h3 {
+            color: #0056b3; /* Darker blue for headings */
+            margin-bottom: 0.5em; /* Consistent spacing */
+            text-align: center; /*center align h1,h2,h3*/
+        }
+        h3{
+          margin-top: 1em;
+        }
+
+        h1{
+          font-size: 1.5em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2em; /* More spacing */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            background-color: white; /* White background for the table */
+            border-radius: 8px; /* Rounded corners */
+            overflow: hidden; /* Ensures border-radius works correctly */
+        }
+
+        th, td {
+            border: 1px solid #dee2e6; /* Lighter border color */
+            padding: 12px; /* More padding */
+            text-align: left;
+        }
+
+        th {
+            background-color: #e9ecef; /* Slightly darker gray for header */
+            font-weight: bold; /* Make header text bold */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa; /* Alternate row color for readability */
+        }
+
+        pre {
+            background-color: #e9ecef;
+            padding: 15px;
+            overflow-x: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .code {
+            font-family: 'Source Code Pro', Courier, monospace; /* Better monospace font */
+            color: #000;
+            font-size: 0.9em; /* Slightly smaller font size */
+        }
+
+        .terminal-output {
+            background-color: #212529; /* Darker background */
+            color: #c9d1d9;       /* Lighter color for text */
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Source Code Pro', Courier, monospace;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            border: 1px solid #495057; /* Darker border */
+            font-size: 0.9em;
+        }
+
+        .page {
+            page-break-after: always;
+            margin-bottom: 3em;  /* More space between pages */
+        }
+        .page:last-child {
+            page-break-after: avoid; /* Prevents a page break on the last page */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block; /* Stack table elements for smaller screens */
+            }
+
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px; /* Hide table headers on small screens */
+            }
+
+            td {
+                border: none; /* Remove borders in stacked view */
+                border-bottom: 1px solid #dee2e6;
+                position: relative;
+                padding-left: 50%; /* Create space for labels */
+            }
+
+            td:before {
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                content: attr(data-label); /* Use data-label attribute for labels */
+                font-weight: bold;
+            }
+            .page {
+                margin-bottom: 1em; /* reduce page margin on smaller screen sizes*/
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA<br>DURG (C.G.)</h1>
+    <h2>INDEX</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>LIST OF PRACTICALS</th>
+                <th>PG.NO</th>
+                <th>Date of Experiment</th>
+                <th>Submission Date</th>
+                <th>Signature</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Added data-label attributes for responsive table -->
+            <tr><td data-label="S.NO">1</td><td data-label="LIST OF PRACTICALS">Write a program that reads an integer value and prints -leap year or - not a leap year.</td><td data-label="PG.NO">1</td><td data-label="Date of Experiment">08/08/2014</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">2</td><td data-label="LIST OF PRACTICALS">Write a program that takes a positive integer and then produces n lines of output...</td><td data-label="PG.NO">2</td><td data-label="Date of Experiment">22/08/2022</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">3</td><td data-label="LIST OF PRACTICALS">Write a program to create the following Pattern: * ** *** ****</td><td data-label="PG.NO">3</td><td data-label="Date of Experiment">29/08/2024</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">4</td><td data-label="LIST OF PRACTICALS">Write a function that takes an integer n as input and calculates 1 + 1/1! + 1/2! + ...1/n!</td><td data-label="PG.NO">4</td><td data-label="Date of Experiment">05/09/24</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">5</td><td data-label="LIST OF PRACTICALS">Write a function that takes an integer input and calculates the factorial of that number</td><td data-label="PG.NO">5</td><td data-label="Date of Experiment">12/09/24</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">6</td><td data-label="LIST OF PRACTICALS">Write a function that takes a string input and checks if it is a palindrome or not.</td><td data-label="PG.NO">6</td><td data-label="Date of Experiment">19/09/24</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">7</td><td data-label="LIST OF PRACTICALS">Write a list function to convert a string into a list, as in List (-abc) gives [a,b,c]</td><td data-label="PG.NO">7</td><td data-label="Date of Experiment">24/09/24</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">8</td><td data-label="LIST OF PRACTICALS">Write a program to generate Fibonacci series.</td><td data-label="PG.NO">8</td><td data-label="Date of Experiment">3/10/24</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">9</td><td data-label="LIST OF PRACTICALS">Write a program to check whether the input number is even or odd</td><td data-label="PG.NO">9</td><td data-label="Date of Experiment">10/10/25</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">10</td><td data-label="LIST OF PRACTICALS">Write a program to compare three numbers and print the largest one.</td><td data-label="PG.NO">10</td><td data-label="Date of Experiment">17/10/29</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">11</td><td data-label="LIST OF PRACTICALS">Write a program to print factors of a given number.</td><td data-label="PG.NO">11</td><td data-label="Date of Experiment">24/10/29</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">12</td><td data-label="LIST OF PRACTICALS">Write a method to calculate GCD of two numbers</td><td data-label="PG.NO">12</td><td data-label="Date of Experiment">4/11/29</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <!-- Page 2 of the index (continued) -->
+            <tr><td data-label="S.NO">13</td><td data-label="LIST OF PRACTICALS">Write a program to create Stack Class and implement all its methods. (Use Lists)</td><td data-label="PG.NO">13-15</td><td data-label="Date of Experiment">14/11/22</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">14</td><td data-label="LIST OF PRACTICALS">Write a program to create Queue Class and implement all its methods. (Use Lists)</td><td data-label="PG.NO">16-20</td><td data-label="Date of Experiment">21/11/95</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">15</td><td data-label="LIST OF PRACTICALS">Write a program to implement linear and binary search on lists.</td><td data-label="PG.NO">21-23</td><td data-label="Date of Experiment">28/11/25</td><td data-label="Submission Date"></td><td data-label="Signature"></td></tr>
+            <tr><td data-label="S.NO">16</td><td data-label="LIST OF PRACTICALS">Write a program to sort a list using insertion sort and bubble sort and selection sort</td><td data-label="PG.NO">24-25</td><td data-label="Date of Experiment">05/12/24</td><td data-label="Submission Date">Completed</td><td data-label="Signature"></td></tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q1: write a program that reads an integer value and prints leap year or not a leap year?</h3>
+    <h2>CODE:</h2>
+    <pre><code class="code">
+# Program to check if a year is a leap year
+
+year = int(input("Enter a year: "))
+
+# Check if the year is a leap year
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(f"{year} is a Leap Year")
+else:
+    print(f"{year} is Not a Leap Year")
+    </code></pre>
+    <h2>OUTPUT:</h2>
+    <pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter a year: 2025
+2025 is Not a Leap Year
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q2: write a program that takes a positive integer a and then produces n lines of output?</h3>
+    <h2>CODE:</h2>
+    <pre><code class="code">
+# Input: A positive integer
+a = int(input("Enter a positive integer: "))
+
+# Validate input
+if a <= 0:
+    print("Please enter a positive integer.")
+else:
+    # Generate output
+    for i in range(1, a + 1):
+        print(" ".join(str(j) for j in range(1, i + 1)))
+    </code></pre>
+    <h2>OUTPUT:</h2>
+     <pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter a positive integer: 5
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+    </pre>
+</div>
+
+
+<div class="page">
+  <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+  <h3>Q3: Write a program to create the following pattern:</h3>
+   <p>For example:</p>
+   <pre>
+enter the size : 5
+
+*
+**
+***
+****
+*****
+   </pre>
+
+  <h2>CODE:</h2>
+  <pre><code class="code">
+# Input: Size of the pattern
+size = int(input("Enter the size: "))
+
+# Generate the pattern
+for i in range(1, size + 1):
+    print("*" * i)
+  </code></pre>
+
+  <h2>OUTPUT:</h2>
+  <pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python  "c:\Users\Admin\Desktop\New folder\test.py"
+Enter the size: 5
+*
+**
+***
+****
+*****
+PS C:\Users\Admin\Desktop\New folder>
+</pre>
+</div>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q4: write a function that takes an integer n as input and calculates the value of 1+1/1! + 1/2! +1/n!?</h3>
+
+    <h2>CODE</h2>
+    <pre><code class="code">
+import math
+
+def calculate_series(n):
+    # Initialize the sum
+    result = 0
+
+    # Iterate from 0 to n
+    for i in range(n + 1):
+        result += 1 / math.factorial(i)  # Add 1 / i! to the result
+
+    return result
+
+# Input from the user
+n = int(input("Enter an integer n: "))
+
+# Validate input
+if n < 0:
+    print("Please enter a non-negative integer.")
+else:
+    # Call the function and display the result
+    print(f"The value of the series for n = {n} is: {calculate_series(n)}")
+</code></pre>
+
+    <h2>OUTPUT:</h2>
+    <pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python -u "c:\Users\Admin\Desktop\New folder\test.py"
+Enter an integer n: 5
+The value of the series for n = 5 is: 2.7166666666666663
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q5: write a function that takes an integer input and calculates the factorial of that number ?</h3>
+    <h2>CODE:</h2>
+    <pre><code class="code">
+def factorial(n):
+    # Validate input
+    if n < 0:
+        return "Factorial is not defined for negative numbers."
+    elif n == 0 or n == 1:
+        return 1  # 0! and 1! are both 1
+    else:
+        result = 1
+        for i in range(2, n + 1):  # Calculate factorial iteratively
+            result *= i
+        return result
+
+# Input from the user
+n = int(input("Enter an integer: "))
+
+# Call the function and display the result
+print(f"The factorial of {n} is: {factorial(n)}")
+</code></pre>
+
+    <h2>OUTPUT</h2>
+    <pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter an integer: 10
+The factorial of 10 is: 3628800
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q6: Write a function that takes An string input and checks if it is a palindrome or not?</h3>
+    <h2>CODE:</h2>
+    <pre><code class="code">
+def is_palindrome(s):
+    # Remove spaces and convert to lowercase for case-insensitive comparison
+    s = s.replace(" ", "").lower()
+
+    # Check if the string is equal to its reverse
+    if s == s[::-1]:
+        return True
+    else:
+        return False
+
+# Input from the user
+string = input("Enter a string: ")
+
+# Call the function and display the result
+if is_palindrome(string):
+    print(f'"{string}" is a palindrome.')
+else:
+    print(f'"{string}" is not a palindrome.')
+</code></pre>
+
+<h2>OUTPUT:</h2>
+<pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter a string: prateek
+"prateek" is not a palindrome.
+PS C:\Users\Admin\Desktop\New folder>
+
+PS C:\Users\Admin\Desktop\New folder> python -u "c:\Users\Admin\Desktop\New folder\test.py"
+Enter a string: racecar
+"racecar" is a palindrome.
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+<div class="page">
+<h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+<h3>Q7: Write a list function to convert a string into a list, as in list (-a b c) gives [a, b, c).</h3>
+<h2>CODE:</h2>
+<pre><code class="code">
+def string_to_list(s):
+    # Remove non-alphabetical characters and convert to a list
+    result = [char for char in s if char.isalpha()]
+    return result
+
+# Input from the user
+string = input("Enter a string: ")
+
+# Call the function and display the result
+print(f"The list representation is: {string_to_list(string)}")
+</code></pre>
+
+<h2>OUTPUT</h2>
+<pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python - "c:\Users\Admin\Desktop\New folder\test.py"
+Enter a string: -abc
+The list representation is: ['a', 'b', 'c']
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q8: Write a program to generate Fibonacci series?</h3>
+    <h2>CODE:</h2>
+    <pre><code class="code">
+def generate_fibonacci(n):
+    # Check if the input is valid
+    if n <= 0:
+        return "Please enter a positive integer."
+
+    # Initialize the first two terms of the Fibonacci series
+    fib_series = []
+
+    # Generate the Fibonacci series
+    a, b = 0, 1
+    for _ in range(n):
+        fib_series.append(a)
+        a, b = b, a + b  # Update a and b to the next two terms
+
+    return fib_series
+</code></pre>
+    <h2>OUTPUT:</h2>
+    <pre class="terminal-output">
+# Input from the user
+num_terms = int(input("Enter the number of terms in the Fibonacci series: "))
+
+# Call the function and display the result
+print(f"Fibonacci series: {generate_fibonacci(num_terms)}")
+
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter the number of terms in the Fibonacci series: 10
+Fibonacci series: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q9: Write a program to check whether the input number is even or odd?</h3>
+    <h2>CODE:</h2>
+    <pre><code class="code">
+def check_even_odd(n):
+    # Check if the number is even or odd
+    if n % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Input from the user
+number = int(input("Enter a number: "))
+
+# Call the function and display the result
+print(f"The number {number} is {check_even_odd(number)}.")
+</code></pre>
+<h2>OUTPUT:</h2>
+    <pre class = "terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python - "c:\Users\Admin\Desktop\New folder\test.py"
+Enter a number: 26
+The number 26 is Even.
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+<div class="page">
+<h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+<h3>Q10: Write a program to compare three numbers and print the largest one?</h3>
+<h2>CODE</h2>
+<pre><code class="code">
+def find_largest(a, b, c):
+    # Compare the three numbers and return the largest one
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+
+# Input from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+num3 = int(input("Enter the third number: "))
+
+# Call the function and display the result
+largest = find_largest(num1, num2, num3)
+print(f"The largest number is: {largest}")
+</code></pre>
+<h2>OUTPUT:</h2>
+<pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter the first number: 5
+Enter the second number: 3
+Enter the third number: 7
+The largest number is: 7
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q11: Write a program to print factors of a given number?</h3>
+    <h2>CODE:</h2>
+<pre><code class="code">
+def print_factors(n):
+    # Find and print all factors of the number
+    factors = []
+    for i in range(1, n + 1):
+        if n % i == 0:
+            factors.append(i)
+    return factors
+
+# Input from the user
+num = int(input("Enter a number: "))
+
+# Call the function and display the factors
+factors = print_factors(num)
+print(f"The factors of {num} are: {factors}")
+</code></pre>
+
+    <h2>OUTPUT:</h2>
+    <pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter a number: 106
+The factors of 106 are: [1, 2, 53, 106]
+PS C:\Users\Admin\Desktop\New folder>
+    </pre>
+</div>
+
+<div class="page">
+<h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+<h3>Q12: Write a method to calculate GCD of two numbers ?</h3>
+<h2>CODE:</h2>
+<pre><code class="code">
+def gcd(a, b):
+    # Use the Euclidean algorithm to find the GCD
+    while b:
+        a, b = b, a % b  # Swap a and b, and find the remainder
+    return a
+
+# Input from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Call the function and display the result
+result = gcd(num1, num2)
+print(f"The GCD of {num1} and {num2} is: {result}")
+</code></pre>
+    <h2>OUTPUT:</h2>
+<pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter the first number: 40
+Enter the second number: 56
+The GCD of 40 and 56 is: 8
+PS C:\Users\Admin\Desktop\New folder>
+</pre>
+</div>
+
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+    <h3>Q13: Write a program to create Stack Class and implement all its methods, (Use Lists)?</h3>
+    <h2>CODE:</h2>
+    <pre><code class="code">
+class Stack:
+    def __init__(self):
+        self.stack = []  # Initialize an empty list as the stack
+
+    # Method to check if the stack is empty
+    def is_empty(self):
+        return len(self.stack) == 0
+
+    # Method to push an element onto the stack
+    def push(self, item):
+        self.stack.append(item)
+
+    # Method to pop an element from the stack
+    def pop(self):
+        if not self.is_empty():
+            return self.stack.pop()
+        else:
+            return "Stack is empty, cannot pop"
+
+    # Method to peek at the top element of the stack
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        else:
+            return "Stack is empty"
+
+     # Method to get the size of the stack
+    def size(self):
+        return len(self.stack)
+
+    # Method to print the stack
+    def display(self):
+        return self.stack
+# Example usage
+stack = Stack()
+
+#Pushing elements to the stack
+stack.push(10)
+stack.push(20)
+stack.push(30)
+# Displaying the stack
+print("Stack after pushing elements:", stack.display())
+
+# Peeking the top element
+print("Top element:", stack.peek())
+
+# Popping an element from the stack
+print("Popped element:", stack.pop())
+
+# Displaying the stack after pop
+print("Stack after pop:", stack.display())
+
+# Checking the size of the stack
+print("Size of stack:", stack.size())
+
+# Popping all elements
+stack.pop()
+stack.pop()
+
+# Trying to pop from an empty stack
+print("Popped element from empty stack:", stack.pop())
+</code></pre>
+    <h2>OUTPUT:</h2>
+    <pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Stack after pushing elements: [10, 20, 30]
+Top element: 30
+Popped element: 30
+Stack after pop: [10, 20]
+Size of stack: 2
+Popped element from empty stack: Stack is empty, cannot pop
+PS C:\Users\Admin\Desktop\New folder>
+</pre>
+</div>
+<div class="page">
+    <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+<h3>Q14: Write a program to create Queue Class and implement all its methods, (Use Lists)?</h3>
+<h2>CODE</h2>
+<pre><code class="code">
+class Queue:
+    def __init__(self):
+        self.queue = []  # Initialize an empty list as the queue
+
+    # Method to check if the queue is empty
+    def is_empty(self):
+        return len(self.queue) == 0
+
+    # Method to enqueue an element (add to the queue)
+    def enqueue(self, item):
+        self.queue.append(item)
+
+    # Method to dequeue an element (remove from the front of the queue)
+    def dequeue(self):
+        if not self.is_empty():
+            return self.queue.pop(0)
+        else:
+            return "Queue is empty, cannot dequeue"
+
+    # Method to peek at the front element of the queue
+    def peek(self):
+        if not self.is_empty():
+            return self.queue[0]
+        else:
+            return "Queue is empty"
+
+    # Method to get the size of the queue
+    def size(self):
+        return len(self.queue)
+    
+    # Method to display element in the queue.
+    def display(self):
+      return self.queue
+# Example usage
+queue = Queue()
+
+# Enqueue elements to the queue
+queue.enqueue(10)
+queue.enqueue(20)
+queue.enqueue(30)
+
+# Displaying the queue
+print("Queue after enqueuing elements:", queue.display())
+
+# Peeking at the front element
+print("Front element:", queue.peek())
+
+# Dequeuing an element from the queue
+print("Dequeued element:", queue.dequeue())
+
+# Displaying the queue after dequeue
+print("Queue after dequeue:", queue.display())
+
+# Checking the size of the queue
+print("Size of queue:", queue.size())
+
+# Dequeuing all elements
+queue.dequeue()
+queue.dequeue()
+
+# Trying to dequeue from an empty queue
+print("Dequeued element from empty queue:", queue.dequeue())
+</code></pre>
+<h2>OUTPUT:</h2>
+<pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Queue after enqueuing elements: [10, 20, 30]
+Front element: 10
+Dequeued element: 10
+Queue after dequeue: [20, 30]
+Size of queue: 2
+Dequeued element from empty queue: Queue is empty, cannot dequeue
+PS C:\Users\Admin\Desktop\New folder>
+</pre>
+</div>
+
+<div class="page">
+  <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+<h3>Q15: Write a program to implement linear and binary search on lists?</h3>
+<h2>CODE:</h2>
+<pre><code class="code">
+# Linear Search Implementation
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i  # Return the index if the element is found
+    return -1  # Return -1 if the element is not found
+
+# Binary Search Implementation
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2  # Find the middle index
+        if arr[mid] == target:
+            return mid  # Return the index if the element is found
+        elif arr[mid] < target:
+            left = mid + 1  # Search in the right half
+        else:
+            right = mid - 1  # Search in the left half
+    return -1  # Return -1 if the element is not found
+
+# Example usage
+arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# Linear Search
+target = int(input("Enter the number to search using Linear Search: "))
+result_linear = linear_search(arr, target)
+if result_linear != -1:
+    print(f"Linear Search: Element found at index {result_linear}.")
+else:
+    print("Linear Search: Element not found.")
+
+# Binary Search (Array needs to be sorted)
+target = int(input("Enter the number to search using Binary Search: "))
+result_binary = binary_search(arr, target)
+if result_binary != -1:
+    print(f"Binary Search: Element found at index {result_binary}.")
+else:
+    print("Binary Search: Element not found.")
+</code></pre>
+
+<h2>OUTPUT</h2>
+<pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter the number to search using Linear Search: 8
+Linear Search:  Element not found.
+Enter the number to search using Binary Search: 84
+Binary Search: Element not found.
+PS C:\Users\Admin\Desktop\New folder> 70
+70
+PS C:\Users\Admin\Desktop\New folder> 30
+30
+PS C:\Users\Admin\Desktop\New folder> python "c:\Users\Admin\Desktop\New folder\test.py"
+Enter the number to search using Linear Search: 70
+Linear Search: Element found at index 6.
+Enter the number to search using Binary Search: 30
+Binary Search: Element found at index 2.
+PS C:\Users\Admin\Desktop\New folder>
+</pre>
+</div>
+
+<div class="page">
+  <h1>HEMCHAND YADAV VISHWAVIDYALAYA</h1>
+<h3>Q16: Write a program to sort a list using insertion sort and bubble sort and selection sort?</h3>
+<h2>CODE:</h2>
+<pre><code class="code">
+# Insertion Sort
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]  # The element to be placed at the correct position
+        j = i - 1
+        # Move elements of arr[0..i-1] that are greater than key to one
+        # position ahead
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+    return arr
+
+# Bubble Sort
+def bubble_sort(arr):
+    n = len(arr)
+    # Traverse through all array elements
+    for i in range(n):
+        # Last i elements are already sorted, no need to check again
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                # Swap if element found is greater than the next element
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+# Selection Sort
+def selection_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        # Find the minimum element in unsorted array
+        min_index = i
+        for j in range(i + 1, n):
+            if arr[j] < arr[min_index]:
+                min_index = j
+        # Swap the found minimum element with the first element
+        arr[i], arr[min_index] = arr[min_index], arr[i]
+    return arr
+
+# Example usage
+arr = [64, 25, 12, 22, 11]
+
+# Insertion Sort
+insertion_sorted = insertion_sort(arr.copy())  # Use arr.copy()
+print("Insertion Sort:", insertion_sorted)
+
+# Bubble Sort
+bubble_sorted = bubble_sort(arr.copy())      # Use arr.copy()
+print("Bubble Sort:", bubble_sorted)
+
+# Selection Sort
+selection_sorted = selection_sort(arr.copy())  #Use arr.copy()
+print("Selection Sort:", selection_sorted)
+
+</code></pre>
+    <h2>OUTPUT:</h2>
+<pre class="terminal-output">
+PS C:\Users\Admin\Desktop\New folder> python "C:\Users\Admin\Desktop\New folder\test.py"
+Insertion Sort: [11, 12, 22, 25, 64]
+Bubble Sort: [11, 12, 22, 25, 64]
+Selection Sort: [11, 12, 22, 25, 64]
+PS C:\Users\Admin\Desktop\New folder>
+</pre>
+</div>
+
+</body>
+</html>                                                                                                                             
